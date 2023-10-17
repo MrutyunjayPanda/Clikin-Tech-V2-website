@@ -1,4 +1,13 @@
-function Section({ heading, para, src }) {
+import React from "react";
+
+interface SectionProps {
+  heading: string;
+  para: string;
+  src: string
+}
+
+const Section: React.FC<SectionProps> = (props) => {
+ const { heading, para, src } = props;
   return (
     <>
       <a

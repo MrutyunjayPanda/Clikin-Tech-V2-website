@@ -9,7 +9,7 @@ import About from "./components/Aboutus/About";
 
 function App() {
   return (
-    <div className="">
+    <div >
       <Nav />
       <Banner />
       <About />

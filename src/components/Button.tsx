@@ -1,4 +1,4 @@
-function Button({ name }) {
+function Button({ name }: { name: string }) {
   return (
     <>
       <div className="flex items-center justify-center gap-4">
